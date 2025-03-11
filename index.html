@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitlife - Work Hard To Get Better Life</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+        <span class="span">FitSync</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Classes</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">Join Now</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+      style="background-image: url('./assets/images/hero-bg.png')">
+      <div class="container">
+    
+        <div class="hero-content">
+    
+          <p class="hero-subtitle">
+            <strong class="strong">The Best</strong> Fitness Club
+          </p>
+    
+          <h1 class="h1 hero-title">Work Hard To Get Better Life</h1>
+    
+          <p class="section-text">
+          
+          </p>
+    
+          <a href="#" class="btn btn-primary">Get Started</a>
+    
+        </div>
+    
+        <div class="hero-banner">
+    
+          <!-- Video Replacing the Image -->
+          <video autoplay loop muted playsinline class="w-100">
+            <source src="https://videos.pexels.com/video-files/3209148/3209148-uhd_2560_1440_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    
+       
+    
+        </div>
+    
+      </div>
+    </section>
+    >
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="./assets/images/about-banner.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="./assets/images/about-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-1">
+            <img src="./assets/images/about-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-2">
+
+            <img src="./assets/images/fitness.png" width="650" height="154" loading="lazy" alt="fitness"
+              class="abs-img w-100">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+            <h2 class="h2 section-title">Welcome To FitAI - Your AI Fitness Companion</h2>
+
+            <p class="section-text">
+              FitAI is your ultimate AI-powered fitness partner, designed to personalize and optimize your workouts. Whether you’re looking to lose weight, build muscle, or enhance endurance, our smart system adapts to your fitness journey.
+            </p>
+            
+            <p class="section-text">
+             
+              <br><strong>AI-Powered Daily Exercise Suggestions</strong> 
+              <br> <strong>Smart Timer & Beep Alerts</strong> 
+              <br> <strong>Fitness League & Leaderboard with Friends</strong> 
+              <br><strong>AI-Generated Exercise Demonstrations</strong> 
+              <br> <strong>Personalized Nutrition Suggestions</strong> 
+            </p>
+
+            <div class="wrapper">
+
+
+              <a href="#" class="btn btn-primary">Explore More</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section video" aria-label="video">
+        <div class="container">
+
+          <div class="video-card has-before has-bg-image"
+            style="background-image: url('./assets/images/video-banner.jpg')">
+
+            <h2 class="h2 card-title">Explore Fitness Life</h2>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="btn-link has-before">Watch More</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container">
+
+          <p class="section-subtitle">Key Feautures</p>
+
+          <h2 class="h2 section-title text-center">Fitness Classes For Every Goal</h2>
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-1.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">AI Coach</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    "Your AI Coach: Personalized guidance for smarter workouts and faster progress."
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Completed</p>
+
+                      <span class="progress-value">85%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-2.jpg" width="416" height="240" loading="lazy" alt="Cardio & Strenght"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Nutrition Planner </a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    "Smart Nutrition Planner: Tailored meal plans for a healthier you."
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Completed</p>
+
+                      <span class="progress-value">70%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-3.jpg" width="416" height="240" loading="lazy" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-3.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Power Yoga</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Completed</p>
+
+                      <span class="progress-value">90%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-4.jpg" width="416" height="240" loading="lazy" alt="The Fitness Pack"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-4.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">The Fitness Pack</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">60%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+<!-- 
+  - #BLOG
+-->
+
+<section class="section blog" id="blog" aria-label="blog">
+  <div class="container">
+
+    <p class="section-subtitle">AI Fitness Insights</p>
+
+    <h2 class="h2 section-title text-center">Latest AI Fitness Training Updates</h2>
+
+    <ul class="blog-list has-scrollbar">
+
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+            <img src="./assets/images/blog-1.jpg" width="440" height="270" loading="lazy"
+              alt="AI-Powered Workouts" class="img-cover">
+
+            <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+          </div>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">AI-Powered Workouts</a>
+            </h3>
+
+            <p class="card-text">
+              Explore how AI-driven fitness programs adapt to your progress, offering personalized workout plans for optimal results.
+            </p>
+
+            <a href="#" class="btn-link has-before">Read More</a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <div class="card-banner img-holder" style="--width: 440; --height: 225;">
+            <img src="./assets/images/blog-2.jpg" width="400" height="200" loading="lazy"
+              alt="The Role of AI in Personalized Fitness" class="img-cover">
+
+            <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+          </div>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">The Role of AI in Personalized Fitness</a>
+            </h3>
+
+            <p class="card-text">
+              Discover how artificial intelligence is transforming fitness by analyzing movement patterns and providing tailored exercise recommendations.
+            </p>
+
+            <a href="#" class="btn-link has-before">Read More</a>
+
+          </div>
+
+        </div>
+      
+
+    
+
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+  - #FOOTER
+-->
+
+<footer class="footer">
+
+  <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <ion-icon name="fitness-outline" aria-hidden="true"></ion-icon>
+            <span class="span">FitAI</span>
+          </a>
+          <p class="footer-brand-text">
+            Your AI-powered fitness companion for smarter workouts and healthier living.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <ul class="footer-list">
+            <li><p class="footer-list-title has-before">Quick Links</p></li>
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">AI Workouts</a></li>
+            <li><a href="#" class="footer-link">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-subscribe">
+          <p class="footer-list-title has-before">Subscribe to Our Newsletter</p>
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required class="input-field">
+            <button type="submit" class="btn btn-primary" aria-label="Submit">
+              <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+        </div>
+
+        <div class="footer-social">
+          <p class="footer-list-title has-before">Follow Us</p>
+          <ul class="social-list">
+            <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="copyright">&copy; 2025 FitAI. All Rights Reserved.</p>
+      <ul class="footer-bottom-list">
+        <li><a href="#" class="footer-bottom-link has-before">Privacy Policy</a></li>
+        <li><a href="#" class="footer-bottom-link has-before">Terms & Conditions</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+  <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+</a>
+
+<!-- Custom JS Link -->
+<script src="./assets/js/script.js" defer></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
