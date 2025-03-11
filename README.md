@@ -119,4 +119,4 @@ pip install some_package_name
 3. Set the branch to `main` and save.
 
 ## 📬 Contact
-For queries or contributions, reach out to **Pallavi Gudupalli** at [your-email@example.com](mailto:your-email@example.com).
+For queries or contributions, reach out to **Gadiraju Rishitha** at [your-email@example.com](mailto:your-email@example.com).
